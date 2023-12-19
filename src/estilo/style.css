@@ -61,6 +61,10 @@ header{
     display: block;
 }
 
+.nav_item:hover{
+    color: white;
+}
+
 .nav_hamburguer_container{
     width: 50px;
     height: 50px;
