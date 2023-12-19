@@ -32,7 +32,7 @@ header{
 }
 
 .nav_list{
-    backdrop-filter: blur(20px);
+    background: #6c3c74;
     list-style-type: none;
     position: absolute;
     border: none;
@@ -47,6 +47,7 @@ header{
 }
 
 .active .nav_list{
+    filter: blur(0);
     visibility: visible;
     padding: 0 1rem;
     width: 60%;
